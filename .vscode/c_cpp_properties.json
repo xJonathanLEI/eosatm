@@ -12,6 +12,28 @@
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "WSL",
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "includePath": [
+                "${workspaceFolder}",
+                "/usr/local/include",
+                "~/opt/boost/include"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "/usr/local/include",
+                    "~/opt/boost/include"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
         }
     ],
     "version": 4
